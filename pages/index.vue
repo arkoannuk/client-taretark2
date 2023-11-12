@@ -13,21 +13,21 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
-    <h2>Home</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo odit
-      dolorem debitis officia id harum temporibus sed, ex ut expedita.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo oditasdd ddddd dddddddd
-      dolorem debitis officia id harum temporibus sed, ex ut expedita.
-    </p>
-  </div>
+  <HeroHeader />
 
-  <button class="btn btn-primary">
-    Hello daisyUI
-  </button>
+  <div class="h-[38rem]">
+    <div class="container mx-auto px-5 flex justify-center">
+      <div class="max-w-xl text-center text-base-content">
+        <h1 class="mb-5 text-2xl sm:text-4xl font-bold">
+          Tutvu Võimalustega!
+        </h1>
+        <h1>Testasdasdasdaaaaaaaaaaaaa as aaaaaasd</h1>
+        <h1>Testasssssssssssssssssssss ssssssssssssssssssssssssssssssssdasdasd</h1>
+        <h1>Testasdasdasdasd zxczxczxcz aweqweqweqweqwe asdascasdasd aseqweqwe asdase</h1>
+      </div>
+    </div>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
