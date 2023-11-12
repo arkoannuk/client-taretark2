@@ -7,7 +7,7 @@
     <div class="container px-5">
       <div class="max-w-xl text-neutral-content">
         <h1 class="mb-5 text-3xl sm:text-5xl font-bold">
-          Looduskeskne Majutus Elva Linnas
+          Looduskeskne majutus Elva linnas
         </h1>
         <p class="mb-5 text-md sm:text-lg">
           Meeldejääva puhkuse või öömajana on saadaval erinevate võimalustega ruumid ja saunad,
