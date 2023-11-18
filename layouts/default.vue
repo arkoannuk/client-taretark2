@@ -12,7 +12,7 @@ function removeFocus(e: any) {
 
 <template>
   <div>
-    <div class="navbar bg-base-100 sticky top-0">
+    <div class="navbar bg-base-100 sticky top-0 shadow" style="z-index: 9999;">
       <div class="navbar-start">
         <NuxtLink class="btn btn-ghost normal-case text-xl" to="/" @click="closeAllDetails">
           Purde Puhkemajad
@@ -90,6 +90,5 @@ function removeFocus(e: any) {
 <style scoped>
 .router-link-active {
   color: hsl(var(--p));
-  font-weight: 600;
 }
 </style>
