@@ -13,11 +13,33 @@
           Meeldejääva puhkuse või öömajana on saadaval erinevate võimalustega ruumid ja saunad,
           mis on ümbritsetud meelerahu pakkuva loodusega.
         </p>
-        <button class="mb-3 btn sm:btn-lg btn-primary">
-          <NuxtLink to="/booking">
-            Broneeri kohe
-          </NuxtLink>
-        </button>
+        <div>
+          <div class="flex gap-1 sm:gap-3 items-end">
+            <button class="btn sm:btn-lg btn-primary">
+              <NuxtLink to="/booking">
+                Broneeri kohe
+              </NuxtLink>
+            </button>
+            <div>
+              <p class="text-md sm:text-lg ps-2 font-medium">
+                120+ klienti
+              </p>
+              <div class="rating rating-sm sm:rating-md rating-half pointer-events-none">
+                <input type="radio" name="rating-10" class="rating-hidden">
+                <input type="radio" name="rating-10" class="bg-secondary mask mask-star-2 mask-half-1">
+                <input type="radio" name="rating-10" class="bg-secondary mask mask-star-2 mask-half-2">
+                <input type="radio" name="rating-10" class="bg-secondary mask mask-star-2 mask-half-1">
+                <input type="radio" name="rating-10" class="bg-secondary mask mask-star-2 mask-half-2">
+                <input type="radio" name="rating-10" class="bg-secondary mask mask-star-2 mask-half-1">
+                <input type="radio" name="rating-10" class="bg-secondary mask mask-star-2 mask-half-2">
+                <input type="radio" name="rating-10" class="bg-secondary mask mask-star-2 mask-half-1">
+                <input type="radio" name="rating-10" class="bg-secondary mask mask-star-2 mask-half-2">
+                <input type="radio" name="rating-10" class="bg-secondary mask mask-star-2 mask-half-1" checked>
+                <input type="radio" name="rating-10" class="bg-secondary mask mask-star-2 mask-half-2">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="custom-shape-divider-bottom-1699725066 mt-auto">
