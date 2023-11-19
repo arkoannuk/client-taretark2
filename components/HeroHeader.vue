@@ -14,7 +14,9 @@
           mis on ümbritsetud meelerahu pakkuva loodusega.
         </p>
         <button class="mb-3 btn sm:btn-lg btn-primary">
-          Broneeri Kohe
+          <NuxtLink to="/booking">
+            Broneeri kohe
+          </NuxtLink>
         </button>
       </div>
     </div>

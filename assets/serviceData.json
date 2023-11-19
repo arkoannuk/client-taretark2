@@ -1,0 +1,56 @@
+[
+    {
+        "price": 92,
+        "stats": [
+            "4 max 🧑🏻",
+            "72 m² 🏠"
+        ],
+        "name": "Puhkemaja",
+        "desc": "Värskelt renoveeritud elumaja, kus on võimalik veeta meelt rahustav puhkus kogu pere või väiksema seltskonnaga.",
+        "badges": [
+            "Tünnisaun (60€)",
+            "Tavasaun (25€)",
+            "BBQ majake",
+            "Ligipääs tiigile",
+            "Saarega köök",
+            "60'' TV & Wi-Fi"
+        ],
+        "image": "https://fastly.picsum.photos/id/738/600/400.jpg?hmac=lYCQeFoexVhvjjbpeDIUgaSPZK6LWDn9jIB0bjcazMA" 
+    },
+    {
+        "price": 92,
+        "stats": [
+            "4 max 🧑🏻",
+            "72 m² 🏠"
+        ],
+        "name": "Kämping",
+        "desc": "Värskelt renoveeritud elumaja, kus on võimalik veeta meelt rahustav puhkus kogu pere või väiksema seltskonnaga.",
+        "badges": [
+            "Tünnisaun (60€)",
+            "Tavasaun (25€)",
+            "BBQ majake",
+            "Ligipääs tiigile",
+            "Saarega köök",
+            "60'' TV & Wi-Fi"
+        ],
+        "image": "https://fastly.picsum.photos/id/892/600/400.jpg?hmac=1nfq9HNn_OGd9gJqD0YONhpLgFoKivT2F1vVJ4anFd8" 
+    },
+    {
+        "price": 92,
+        "stats": [
+            "4 max 🧑🏻",
+            "72 m² 🏠"
+        ],
+        "name": "Külaliskorter",
+        "desc": "Värskelt renoveeritud elumaja, kus on võimalik veeta meelt rahustav puhkus kogu pere või väiksema seltskonnaga.",
+        "badges": [
+            "Tünnisaun (60€)",
+            "Tavasaun (25€)",
+            "BBQ majake",
+            "Ligipääs tiigile",
+            "Saarega köök",
+            "60'' TV & Wi-Fi"
+        ],
+        "image": "https://fastly.picsum.photos/id/831/600/400.jpg?hmac=ztbZlE-QImpH7RR83GuNT2PolFmxo-nMX3dVhejHs-s" 
+    }
+]

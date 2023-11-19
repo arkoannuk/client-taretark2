@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import servicesData from "../assets/serviceData.json"
 </script>
 
 <template>
@@ -8,11 +8,15 @@
       Tutvu Võimalustega!
     </h1>
     <div class="flex flex-col lg:flex-row  items-center gap-5 lg:gap-0 justify-around mt-12">
-      <ServiceCard />
-      <div class="divider m-0 lg:hidden" />
-      <ServiceCard />
-      <div class="divider m-0 lg:hidden" />
-      <ServiceCard />
+      <ServiceCard
+        v-for="(service, index) in servicesData" :key="index"
+        :service-price="service.price"
+        :service-stats="service.stats"
+        :service-name="service.name"
+        :service-desc="service.desc"
+        :service-badges="service.badges"
+        :service-image="service.image"
+      />
     </div>
   </div>
 </template>
@@ -20,3 +24,4 @@
 <style scoped>
 
 </style>
+I

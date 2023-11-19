@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   typescript: {
     typeCheck: true,
+    strict: true,
   },
   colorMode: {
     dataValue: "retro", // activate data-theme in <html> tag
