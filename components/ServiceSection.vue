@@ -3,10 +3,10 @@ import servicesData from "../assets/serviceData.json"
 </script>
 
 <template>
-  <div class="container mx-auto px-5">
-    <h1 class="text-2xl sm:text-4xl font-bold text-center">
+  <div class="container mx-auto px-5 pb-20">
+    <h2 class="text-2xl sm:text-4xl font-bold text-center">
       Tutvu Võimalustega!
-    </h1>
+    </h2>
     <div class="flex flex-col lg:flex-row  items-center gap-5 lg:gap-0 justify-around mt-12">
       <ServiceCard
         v-for="(service, index) in servicesData" :key="index"
@@ -24,4 +24,3 @@ import servicesData from "../assets/serviceData.json"
 <style scoped>
 
 </style>
-I

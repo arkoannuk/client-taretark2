@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const props = defineProps({
+const props = defineProps({ // Consider refactoring this into an TS service Interface
   serviceName: {
     type: String,
     required: true,
@@ -41,9 +41,9 @@ function setBadgeColor(badge: string) {
     <div class="card-body">
       <div class="flex">
         <div class="flex-initial w-5/6">
-          <h2 class="text-xl font-bold">
+          <h3 class="text-xl font-bold">
             {{ serviceName }}
-          </h2>
+          </h3>
           <p class="text-md line-clamp-3">
             {{ serviceDesc }}
           </p>

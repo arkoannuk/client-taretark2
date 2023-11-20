@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .w-button {
+      width: 10rem;
+    }
+  
+    button {
+      @apply w-button; /* Applying the custom width class to all buttons */
+    }
+  }
+  

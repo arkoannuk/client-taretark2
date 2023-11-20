@@ -15,6 +15,15 @@ onMounted(() => {
 <template>
   <HeroHeader />
   <ServiceSection />
+  <ValueProp :comp-bg="['bg-base-200']" :comp-layout="['flex-col', 'lg:flex-row']">
+    <SlotsValueProp1 />
+  </ValueProp>
+  <ValueProp :comp-bg="['bg-base-300']" :comp-layout="['flex-col', 'lg:flex-row-reverse']">
+    <SlotsValueProp2 />
+  </ValueProp>
+  <ValueProp :comp-bg="['bg-base-200']" :comp-layout="['flex-col', 'lg:flex-row']">
+    <SlotsValueProp3 />
+  </ValueProp>
 </template>
 
 <style scoped>

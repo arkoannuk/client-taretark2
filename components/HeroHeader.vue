@@ -6,10 +6,10 @@
     <div class="hero-overlay bg-opacity-60" />
     <div class="container px-5">
       <div class="max-w-xl text-neutral-content">
-        <h1 class="mb-5 text-3xl sm:text-5xl font-bold">
+        <h1 class="pb-5 text-3xl sm:text-5xl font-bold">
           Looduskeskne majutus Elva linnas
         </h1>
-        <p class="mb-5 text-md sm:text-lg">
+        <p class="pb-5 text-md sm:text-lg">
           Meeldejääva puhkuse või öömajana on saadaval erinevate võimalustega ruumid ja saunad,
           mis on ümbritsetud meelerahu pakkuva loodusega.
         </p>
@@ -17,7 +17,7 @@
           <div class="flex gap-1 sm:gap-3 items-end">
             <button class="btn sm:btn-lg btn-primary">
               <NuxtLink to="/booking">
-                Broneeri kohe
+                Broneeri
               </NuxtLink>
             </button>
             <div>
