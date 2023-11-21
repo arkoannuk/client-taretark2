@@ -31,7 +31,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="card card-compact max-w-sm xl:max-w-sm lg:max-w-xs shadow-xl bg-base-200 text-primary-content ">
+  <div class="card card-compact max-w-sm xl:max-w-sm lg:max-w-xs shadow-xl bg-base-100 text-base-content">
     <div class="card-body min-h-[14rem]">
       <h3 class="card-title">
         {{ reviewTitle }}
@@ -39,7 +39,8 @@ const props = defineProps({
       <p>"{{ reviewMessage1 }}</p>
       <p>{{ reviewMessage2 }}"</p>
     </div>
-    <div class="bg-base-300 rounded-b-md px-4 py-2">
+    <div class="divider m-0 px-4" />
+    <div class="bg-base-100 rounded-b-2xl px-4 pb-1.5">
       <div class="text-end flex flex-row justify-end gap-2">
         <p class="chat-header">
           {{ reviewAuthor }}

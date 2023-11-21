@@ -2,10 +2,10 @@
 </script>
 
 <template>
-  <div class="hero h-[36rem]" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-    <div class="hero-overlay bg-opacity-60" />
+  <div class="hero h-[36rem]" style="background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+    <div class="hero-overlay bg-opacity-60 bg-slate-950" />
     <div class="container px-5">
-      <div class="max-w-xl text-neutral-content">
+      <div class="max-w-xl text-base-100">
         <h1 class="pb-5 text-3xl sm:text-5xl font-bold">
           Looduskeskne majutus Elva linnas
         </h1>
@@ -64,18 +64,18 @@
 .custom-shape-divider-bottom-1699725066 svg {
     display: block;
     width: 100%;
-    height: 5rem;
+    height: 4rem;
 }
 
 .custom-shape-divider-bottom-1699725066 .shape-fill {
-    fill: #E4D8B4;
+  fill: #ededed
 }
 
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
     .custom-shape-divider-bottom-1699725066 svg {
         width: calc(100% + 1.3px);
-        height: 75px;
+        height: 35px;
     }
 }
 
@@ -83,7 +83,7 @@
 @media (max-width: 767px) {
     .custom-shape-divider-bottom-1699725066 svg {
         width: calc(100% + 1.3px);
-        height: 55px;
+        height: 25px;
     }
 }
 </style>
