@@ -1,0 +1,34 @@
+[
+    {
+        "reviewTitle": "We had such an enjoyable stay here ",
+        "reviewMessage1": "The pictures don’t do it justice! The surroundings and interior are really lovely - we especially liked the bathroom.",
+        "reviewMessage2": "The weather was hot on some nights so the air conditioning was very welcome. Arko communicated with us extremely well and we would be very happy to stay here again!",
+        "reviewAuthor": "Adela & John",
+        "reviewTime": "Juuni 2023",
+        "imageUrl": "https://res.cloudinary.com/dgjfea9cb/image/upload/v1700509574/taretark/customerFaces/john_lcvz6z.png"
+    },
+    {
+        "reviewTitle": "Arko's place is incredibly cosy",
+        "reviewMessage1": "If you're not careful, you might struggle to make the already generous checkout time.",
+        "reviewMessage2": "The sauna, although modest in size, rapidly gets up to a scorching temperature which makes for a perfect opportunity to cool yourself down in the pond - even better if it's frozen over with a hole cut through the ice!",
+        "reviewAuthor": "Siim",
+        "reviewTime": "Detsember 2022",
+        "imageUrl": "https://res.cloudinary.com/dgjfea9cb/image/upload/v1700509574/taretark/customerFaces/siim_tjbsex.png"
+    },
+    {
+        "reviewTitle": "Super location, nice view",
+        "reviewMessage1": "Very beautiful and big shower. A couple of steps from the studio is a sauna. I loved it that there was a big bed, and needless to say the chill area with a couch and TV.",
+        "reviewMessage2": "Large windows, with private views of the outdoors. Nice to meet you, we felt so welcomed!",
+        "reviewAuthor": "Gristel",
+        "reviewTime": "Veebruar 2022",
+        "imageUrl": "https://res.cloudinary.com/dgjfea9cb/image/upload/v1700509574/taretark/customerFaces/gristel_hyqmz8.png"
+    },
+    {
+        "reviewTitle": "This place is amazing",
+        "reviewMessage1": "Totally recommend! Location is super, just a few minutes from center and the place itself was very beautiful with big garden! The hosts were such a nice people!",
+        "reviewMessage2": "They really were spreading positive energy to us and we just loved them and the place :)! Thank you so much!",
+        "reviewAuthor": "Birgit",
+        "reviewTime": "Juuli 2019",
+        "imageUrl": "https://res.cloudinary.com/dgjfea9cb/image/upload/v1700510299/taretark/customerFaces/birgit_fopvim.png"
+    }
+]

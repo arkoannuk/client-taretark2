@@ -24,6 +24,7 @@ onMounted(() => {
   <ValueProp :comp-bg="['bg-base-200']" :comp-layout="['flex-col', 'lg:flex-row']">
     <SlotsValueProp3 />
   </ValueProp>
+  <Testimonials />
 </template>
 
 <style scoped>

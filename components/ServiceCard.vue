@@ -41,10 +41,10 @@ function setBadgeColor(badge: string) {
     <div class="card-body">
       <div class="flex">
         <div class="flex-initial w-5/6">
-          <h3 class="text-xl font-bold">
+          <h3 class="card-title">
             {{ serviceName }}
           </h3>
-          <p class="text-md line-clamp-3">
+          <p class="line-clamp-3">
             {{ serviceDesc }}
           </p>
         </div>
