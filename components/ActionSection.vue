@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <div class="hero h-[26rem] md:h-[32rem]" style="background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
-    <div class="custom-shape-divider-bottom-1699725066 mb-auto">
+  <div class="hero h-[26rem] md:h-[32rem] relative" style="background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+    <div class="custom-shape-divider-bottom-1699725066">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill" />
       </svg>
@@ -26,8 +26,8 @@
 
 <style scoped>
 .custom-shape-divider-bottom-1699725066 {
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
