@@ -62,11 +62,11 @@ function setBadgeColor(badge: string) {
       </div>
       <div class="divider m-0" />
       <div class="card-actions justify-between">
-        <button class="btn btn-sm btn-primary">
-          <NuxtLink to="/rooms">
+        <NuxtLink to="/rooms">
+          <button class="btn btn-sm btn-primary">
             Vaata lähemalt
-          </NuxtLink>
-        </button>
+          </button>
+        </NuxtLink>
         <div class="text-lg font-bold">
           {{ servicePrice }}€ 🌗
         </div>

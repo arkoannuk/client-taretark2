@@ -15,11 +15,11 @@
         </p>
         <div>
           <div class="flex gap-1 sm:gap-3 items-end">
-            <button class="btn sm:btn-lg btn-primary">
-              <NuxtLink to="/booking">
+            <NuxtLink to="/booking">
+              <button class="btn sm:btn-lg btn-primary">
                 Broneeri
-              </NuxtLink>
-            </button>
+              </button>
+            </NuxtLink>
             <div>
               <p class="text-md sm:text-lg ps-2 font-medium">
                 120+ klienti

@@ -4,7 +4,7 @@ import reviewData from "../assets/reviewData.json"
 
 <template>
   <div class="leaves-background">
-    <div class="container mx-auto px-5 py-20 lg:py-40">
+    <div class="container mx-auto px-5 py-10 md:py-20">
       <div class="flex flex-col items-center">
         <h2 class="text-2xl sm:text-4xl font-bold text-center pb-5">
           Mida arvavad kliendid?
@@ -29,13 +29,13 @@ import reviewData from "../assets/reviewData.json"
       <div class="flex justify-center pt-12">
         <div class="flex text-center gap-12">
           <div>
-            <img class="w-64" src="../assets/images/booking.png">
+            <img class="w-64" src="@/assets/images/booking.png">
             <p class="text-md sm:text-lg  font-semibold">
               40+ arvustust <br> ⭐ 9/10 ⭐
             </p>
           </div>
           <div>
-            <img class="w-64" src="../assets/images/airbnb.png">
+            <img class="w-64" src="@/assets/images/airbnb.png">
             <p class="text-md sm:text-lg font-semibold">
               35+ arvustust <br>⭐ 4.5/5 ⭐
             </p>

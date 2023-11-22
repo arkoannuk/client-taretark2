@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import servicesData from "../assets/serviceData.json"
+import servicesData from "@/assets/serviceData.json"
 </script>
 
 <template>
   <div class="leaves-background">
-    <div class="container mx-auto px-5 pb-20">
+    <div class="container mx-auto px-5 pb-10 md:pb-20">
       <h2 class="text-2xl sm:text-4xl font-bold text-center pb-12">
         Tutvu Võimalustega!
       </h2>
-      <div class="flex flex-col lg:flex-row  items-center gap-5 lg:gap-0 justify-around">
+      <div class="flex flex-col lg:flex-row  items-center gap-12 lg:gap-0 justify-around">
         <ServiceCard
           v-for="(service, index) in servicesData" :key="index"
           :service-price="service.price"
