@@ -10,8 +10,6 @@ onMounted(() => {
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
-      dragging: !isMobile,
-      scrollWheelZoom: !isMobile,
       touchZoom: true,
       detectRetina: true,
     }).addTo(map)
@@ -20,6 +18,9 @@ onMounted(() => {
     // .bindPopup("<p><b>Purde Puhkemajad</b></p>")
     // .openPopup()
     marker._icon.style.filter = "hue-rotate(275deg)"
+    map.scrollWheelZoom.disable()
+    if (isMobile)
+      map.dragging.disable()
   }
 })
 </script>
