@@ -2,13 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-    .w-button {
-      width: 10rem;
-    }
-  
-    button {
-      @apply w-button; /* Applying the custom width class to all buttons */
+@layer components { 
+  button {
+    width: 10rem;
+  }
+
+  .tabs-sized :where(.tab) {
+    @apply h-8 text-sm leading-loose;
+    --tab-padding: 1rem;
+  }
+
+  @media screen(lg) {
+    .tabs-sized :where(.tab) {
+      @apply h-12 text-lg leading-loose;
+      --tab-padding: 1.25rem;
     }
   }
   
+  .tab:hover {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--b3) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--b3) / var(--tw-bg-opacity));
+  }  
+}
+
+

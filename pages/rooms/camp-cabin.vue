@@ -1,8 +1,11 @@
 <script setup lang="ts">
-
+definePageMeta({
+  layout: "rooms",
+})
 </script>
 
 <template>
+  <HeroSection />
   <p class="text-sm ...">
     The quick brown fox ...
   </p>

@@ -3,14 +3,14 @@
 
 <template>
   <div class="hero h-[30rem] relative" style="background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
-    <div class="custom-shape-divider-bottom-1699725066 ">
+    <!-- <div class="custom-shape-divider-bottom-1699725066 ">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill" />
       </svg>
-    </div>
+    </div> -->
     <div class="hero-overlay bg-opacity-60 bg-slate-950" />
     <div class="container px-5">
-      <div class="flex flex-col text-center pt-6 md:pt-20">
+      <div class="flex flex-col text-center">
         <h2 class="pb-5 text-3xl sm:text-5xl font-bold text-base-100">
           Parim majutus Elvas teie käsutusse!
         </h2>
