@@ -4,8 +4,7 @@
 
 <template>
   <div>
-    <Navbar />
-    <RoomSelector />
+    <NavbarSelector />
     <slot />
     <Footer />
   </div>

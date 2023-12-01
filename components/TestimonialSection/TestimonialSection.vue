@@ -31,7 +31,7 @@ import reviewData from "../assets/reviewData.json"
           <div>
             <img class="w-64" src="@/assets/images/booking.png">
             <p class="text-md sm:text-lg  font-semibold">
-              40+ arvustust <br> ⭐ 9/10 ⭐
+              40+ arvustust <br>⭐ 9/10 ⭐
             </p>
           </div>
           <div>

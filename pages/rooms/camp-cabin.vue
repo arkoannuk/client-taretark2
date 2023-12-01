@@ -1,11 +1,14 @@
 <script setup lang="ts">
+import LightBox from "~/components/LightBox.vue"
+
 definePageMeta({
   layout: "rooms",
 })
 </script>
 
 <template>
-  <HeroSection />
+  <CabinHero />
+  <LightBox />
   <p class="text-sm ...">
     The quick brown fox ...
   </p>

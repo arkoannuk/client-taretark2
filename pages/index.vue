@@ -11,9 +11,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <HeroSection />
+  <IndexHeroSection />
   <ServiceSection />
-  <ValuePropSection />
+  <IndexValueSection />
   <TestimonialSection />
   <ActionSection />
 </template>

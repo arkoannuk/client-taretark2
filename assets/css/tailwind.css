@@ -10,14 +10,7 @@
   .tabs-sized :where(.tab) {
     @apply h-8 text-sm leading-loose;
     --tab-padding: 1rem;
-  }
-
-  @media screen(lg) {
-    .tabs-sized :where(.tab) {
-      @apply h-12 text-lg leading-loose;
-      --tab-padding: 1.25rem;
-    }
-  }
+   }
   
   .tab:hover {
     --tw-border-opacity: 1;

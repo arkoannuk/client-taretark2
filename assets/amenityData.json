@@ -1,0 +1,44 @@
+[
+    {
+        "category": "Lounge mugavused",
+        "list": [
+            "Wifi 30/30",
+            "Suur diivan",
+            "60'' TV  & digibox",
+            "Kodukontori nurk",
+            "Terrass ja tiigi vaade"
+        ]
+    },
+    {
+        "category": "Köök ja söömine",
+        "list": [
+            "Tünnisaun (60€)",
+            "Tavasaun (25€)",
+            "BBQ majake",
+            "Ligipääs tiigile",
+            "Saarega köök",
+            "60'' TV & Wi-Fi"
+        ]
+    },
+    {
+        "category": "Magamine ja pesu",
+        "list": [
+            "Wifi 30/30",
+            "Suur diivan",
+            "60'' TV  & digibox",
+            "Kodukontori nurk",
+            "Terrass ja tiigi vaade"
+        ]
+    },
+    {
+        "category": "Vannituba",
+        "list": [
+            "Tünnisaun (60€)",
+            "Tavasaun (25€)",
+            "BBQ majake",
+            "Ligipääs tiigile",
+            "Saarega köök",
+            "60'' TV & Wi-Fi"
+        ]
+    }
+]

@@ -62,7 +62,7 @@ function setBadgeColor(badge: string) {
       </div>
       <div class="divider m-0" />
       <div class="card-actions justify-between">
-        <NuxtLink to="/rooms">
+        <NuxtLink to="/rooms/holiday-home">
           <button class="btn btn-sm btn-primary">
             Vaata lähemalt
           </button>
