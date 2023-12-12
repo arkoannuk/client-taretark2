@@ -18,6 +18,13 @@
     --tw-bg-opacity: 1;
     background-color: hsl(var(--b3) / var(--tw-bg-opacity));
   }  
+
+  .vertical-gradient-1 {
+    background-image: linear-gradient(to bottom, #EDEDED, #DBDBDB);
+  }
+  .vertical-gradient-2 {
+    background-image: linear-gradient(to bottom, #DBDBDB, #EDEDED);
+  }
 }
 
 

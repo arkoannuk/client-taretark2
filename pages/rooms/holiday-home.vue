@@ -8,6 +8,7 @@ definePageMeta({
   <HomeHeroSection />
   <AmenitySection />
   <HomeValueSection />
+  <HomeActionSection />
 </template>
 
 <style scoped>

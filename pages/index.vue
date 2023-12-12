@@ -15,7 +15,7 @@ onMounted(() => {
   <ServiceSection />
   <IndexValueSection />
   <TestimonialSection />
-  <ActionSection />
+  <IndexActionSection />
 </template>
 
 <style scoped>

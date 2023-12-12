@@ -4,7 +4,7 @@
 <template>
   <ValueProp :comp-bg="['bg-base-200']" :comp-layout="['flex-col', 'lg:flex-row-reverse']" comp-img="https://images.unsplash.com/photo-1603612692333-7bac35e43500?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     <template #content>
-      <HomeValue1 />
+      <CabinValue1 />
     </template>
     <template #media>
       <div class="flex-row w-full lg:w-2/4">
@@ -19,7 +19,7 @@
   </ValueProp>
   <ValueProp :comp-bg="['bg-base-200']" :comp-layout="['flex-col', 'lg:flex-row']">
     <template #content>
-      <HomeValue2 />
+      <CabinValue2 />
     </template>
     <template #media>
       <div class="flex-row w-full lg:w-2/4">
